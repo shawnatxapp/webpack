@@ -1155,15 +1155,15 @@ Child
 `;
 
 exports[`StatsTestCases should print correct stats for limit-chunk-count-plugin 1`] = `
-"Hash: 79688853b421a1b99b21ee833b1335bf5cefe6d3ef8e4ba109adf5abb5d72c01d0bad8a1ac53a2ee
+"Hash: 4c55553bd94205710a5fee833b1335bf5cefe6d3ef8e4ba109adf5abb5d72c01d0bad8a1ac53a2ee
 Child 1 chunks:
-    Hash: 79688853b421a1b99b21
+    Hash: 4c55553bd94205710a5f
     Time: Xms
     Built at: Thu Jan 01 1970 00:00:00 GMT
-          Asset      Size  Chunks             Chunk Names
-    0.bundle.js  1.03 KiB       0  [emitted]  
-    Entrypoint main = 0.bundle.js
-    chunk    {0} 0.bundle.js 191 bytes <{0}> >{0}< [initial] [rendered]
+        Asset      Size  Chunks             Chunk Names
+    bundle.js  6.67 KiB       0  [emitted]  main
+    Entrypoint main = bundle.js
+    chunk    {0} bundle.js (main) 191 bytes <{0}> >{0}< [entry] [rendered]
      [0] ./index.js 73 bytes {0} [built]
      [1] ./a.js 22 bytes {0} [built]
      [2] ./b.js 22 bytes {0} [built]
